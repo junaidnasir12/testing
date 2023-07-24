@@ -1,0 +1,59 @@
+*{
+margin: 0;padding: 0;
+}
+.logo > img{
+    margin-left: 10px;
+    height: 90x;
+    width: 100px;
+}
+.nav{ display: flex;
+    
+}
+.nav>ul>li{
+    text-transform: capitalize ;
+    
+    margin-top: 18px;
+    display: inline-block;
+    margin-left: 20px; 
+    padding: 0px
+}
+ #searchbar{
+    width: 250px;
+    border-radius: 20px;
+    margin: 10px;
+    margin-left: 200px;
+    padding-left: 30PX;
+
+}
+#option{
+    background-color: transparent;
+}
+.button #login {
+    margin-top: 10px;
+    width: 80px;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 5px ;
+    border: none;
+}
+.signup{
+    margin-right: 20px;
+}
+.button .signup {
+    height: 35px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    width: 90px;
+    margin-right: 10px;
+    padding-right:10px ;
+    background-color: green;
+    border-radius: 20px;
+    
+}
+.button .signup:hover{
+    color: white;
+    background-color: rgb(59, 221, 59);
+    position: relative;
+    
+}
